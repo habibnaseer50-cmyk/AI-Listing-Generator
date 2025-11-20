@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Listing Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🗡️ AI Weapon Listing Creator</h1>
+        <label for="itemType">Item Type:</label>
+        <select id="itemType">
+            <option value="Knife">Knife</option>
+            <option value="Sword">Sword</option>
+            <option value="Axe">Axe</option>
+        </select>
+        <label for="itemLength">Item Size (Length in inches/cm):</label>
+        <input type="text" id="itemLength" placeholder="e.g., 10 inches or 25 cm">
+        <label for="handleMaterial">Handle Material:</label>
+        <input type="text" id="handleMaterial" placeholder="e.g., Rosewood, Leather, Bone">
+        <label for="bladeMaterial">Blade Material:</label>
+        <input type="text" id="bladeMaterial" placeholder="e.g., Damascus Steel, Carbon Steel, Copper">
+        <label for="shopName">Shop/Brand Name:</label>
+        <input type="text" id="shopName" placeholder="e.g., Viking Forge, The Blade Master">
+        <button id="generateBtn">Generate SEO Listing (AI Power)</button>
+        <hr>
+        <h2>✨ AI Generated Listing:</h2>
+        <div id="output" class="output-box">
+            <p>Your Title, Description, and Tags will appear here...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
